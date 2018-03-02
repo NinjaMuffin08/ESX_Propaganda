@@ -23,7 +23,7 @@ Installation:
 1. Import sql and create a journalist job entry in `job` table
 2. Copy to esx folder
 3. Add to start
-4. Use the export function to open. I have this on my AIO Job menu.
+4. Use the export function to open. I have this in AIO Job menu.
 5. En fucking joy
 6. Credit on server patchnotes
 
