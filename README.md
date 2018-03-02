@@ -9,6 +9,7 @@ Features:
 1. Nice ui
 2. Automaintains the news database, old articles are automatically removed
 3. Journalist office to redeem paycheck (amount * articles liked)
+4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
 
 Cons:
 Likes and updates are updated only upon restart due to performance reasons 
