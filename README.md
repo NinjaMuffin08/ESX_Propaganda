@@ -25,7 +25,7 @@ Installation:
 3. Add to start
 4. Use the export function to open. I have this on my AIO Job menu.
 5. En fucking joy
-6. Credit me on your server patchnotes :D
+6. Credit me on your server patchnotes
 
 DO NOT EDIT OR DISTRIBUTE WITHOUT PERMISSION.
 
