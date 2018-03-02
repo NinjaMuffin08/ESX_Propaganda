@@ -1,0 +1,134 @@
+<style>
+
+.app {
+	display: none;
+	background-image: url('img/tabletti.png');
+	background-size: 100%;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+	position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:0; bottom:0;
+    margin: auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    height: 843px;
+	width: 566px;
+    overflow: hidden;
+
+}
+
+#screen {
+	
+	/*this to solve "the content will not be cut when the window is smaller than the content": */
+	position:absolute; /*it can be fixed too*/
+    left:0; right:0;
+    top:11; bottom:0;
+    margin: auto;
+
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    height: 600px;
+	width: 500px;
+    overflow:auto;
+}
+
+#banner {
+	background-image: url('img/navbar.jpg');
+    background-color: red;
+	height: 132px;
+}
+
+.news {
+	
+	display: none;
+	
+}
+
+.bait {
+	
+	background-color: yellow;
+	color: black;
+	
+}
+
+
+.center {
+
+}
+
+body {
+	
+	height: 100%;
+}
+
+textarea {
+	
+	width: 100%;
+	
+}
+
+.editor {
+	
+	width: 100%;
+	
+}
+
+
+.likeBtn {
+	display: none;
+}
+
+.btnRet {
+	display: none;
+}
+
+
+</style>
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class = "app">
+			
+			<div class = "w3-container w3-black" id = "screen">
+			
+				<div class = "w3-container" id = "banner">
+				</div>
+				
+				<div class = "editor w3-container w3-white">
+					
+					<p class "w3-black"> ClickBait-otsikko </p>
+					<textarea class = "bait w3-white" rows="2" placeholder="ClickBait-otsikko tähän.. Näkyy etusivulla."></textarea>
+					
+					<p class "w3-black"> Pääotsikko </p>
+					<textarea class = "title w3-white" rows="3" placeholder="Pääotsikko tähän..."></textarea>
+					
+					<p class "w3-black"> Sisältö </p>
+					<textarea class = "content w3-white" rows="30" placeholder="Sisältö tähän... Kirjoittamalla &lt;br&gt saat rivinvaihdon artikkeliin"></textarea>
+					
+					<p class "w3-black" > Linkki kuvaan </p>
+					<textarea class = "imgurl w3-white" rows="5" placeholder="Linkki kuvaan tähän. Esim: https://i.imgur.com/2clKSsk.jpg"></textarea>
+					
+					<div class "radiolife w3-white">
+						<p> Artikkelin tyyppi </p>
+						<input id = "uutinen" type="radio" name="type" value="uutinen" checked> Uutinen <br>
+						<input id = "viihde" type="radio" name="type" value="viihde"> Viihde <br>
+					</div>
+					
+					<button class="w3-button w3-green w3-right btnSend w3-large">Julkaise artikkeli!</button>
+				</div>
+				
+				<button class="w3-button w3-red w3-left btnClose">Sulje</button>
+				
+				
+				<div class="w3-container w3-black">
+				  <p> (c) Huesosware 2016-2018</p>
+				</div>
+			</div>
+	</div>	
+</body>
