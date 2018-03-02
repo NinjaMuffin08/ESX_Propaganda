@@ -1,5 +1,5 @@
 # ESX_Propaganda
-# THE REAL FIVEM RP JOURNALIST JOB
+# FIVEM RP JOURNALIST JOB - THE REAL DEAL
 
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
