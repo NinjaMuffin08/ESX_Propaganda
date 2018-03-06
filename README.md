@@ -12,7 +12,7 @@ Features:
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
 
 Cons:
-Likes and updates are updated only upon restart. Will be "fixed" when I have time. 
+News are updated only upon restart. Will be "fixed" when I have time. Requires one ServerEvent
 
 Requirements:
 1. ESSENTIALMODE & ES EXTENDED
@@ -26,6 +26,4 @@ Installation:
 4. Use the export function to open. I have this in AIO Job menu.
 5. En fucking joy
 
-DO NOT DISTRIBUTE WITHOUT PERMISSION.
-
-DISCORD.ME/NAPAPIIRI
+Contact via DISCORD.ME/NAPAPIIRI
