@@ -25,7 +25,6 @@ Installation:
 3. Add to start
 4. Use the export function to open. I have this in AIO Job menu.
 5. En fucking joy
-6. Credit in server patchnotes
 
 DO NOT DISTRIBUTE WITHOUT PERMISSION.
 
