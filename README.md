@@ -1,5 +1,5 @@
 # ESX_Propaganda
-# FIVEM RP JOURNALIST JOB - THE REAL DEAL
+# FIVEM RP JOURNALIST JOB 
 
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
@@ -12,7 +12,7 @@ Features:
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
 
 Cons:
-Likes and updates are updated only upon restart due to performance reasons 
+Likes and updates are updated only upon restart. Will be "fixed" when I have time. 
 
 Requirements:
 1. ESSENTIALMODE & ES EXTENDED
