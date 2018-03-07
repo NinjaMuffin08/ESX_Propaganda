@@ -1,5 +1,5 @@
 # ESX_Propaganda
-# FIVEM RP JOURNALIST JOB 
+#  DO NOT DOWNLOAD. FIX COMING TONIGHT
 
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
