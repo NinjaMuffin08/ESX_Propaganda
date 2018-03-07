@@ -1,6 +1,6 @@
 
-local playerData			  = nil
-ESX                           = nil
+local playerData = nil
+ESX = nil
 
 Citizen.CreateThread(function()
 	while ESX == nil do
@@ -47,14 +47,14 @@ Citizen.CreateThread(function ()
   
 		Citizen.Wait(1)
 		
-		if CurrentAction ~= nil and once == false then
+		if CurrentAction ~= nil and not once then
 			
 			local _job = tostring(exports['esx_policejob']:getJob())
 			
 			if(_job == "reporter") then 
 				DisplayHelpText("Paina ~INPUT_CONTEXT~ lunastaaksesi palkka")
 
-			  if IsControlPressed(0, Keys['E']) and (GetGameTimer() - GUI.Time) > 300 then
+			  if IsControlPressed(0, Keys['E']) then
 				
 				TriggerServerEvent('esx_propaganda:getPaid', "ok")
 				once = true
