@@ -1,12 +1,12 @@
 # ESX_Propaganda
-#  DO NOT DOWNLOAD. FIX COMING TONIGHT
+# FIVEM TEXT EDITOR FOR ESX_NEWS
 
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
 
 YOU NEED ESX_NEWS FOR THIS  
 Features:
-1. Nice ui
+1. Nice ui with ugly scrollbar (will probably remove later)
 2. Automaintains the news database, old articles are automatically removed
 3. Journalist office to redeem paycheck (amount * articles liked)
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
@@ -20,7 +20,7 @@ Requirements:
 3. journalist-job title
 
 Installation:
-1. Import sql and create a journalist job entry in `job` table
+1. Import sql and create a journalist job entry in `job` table. Delete all existing journalist job scripts
 2. Copy to esx folder
 3. Add to start
 4. Use the export function to open. I have this in AIO Job menu.
