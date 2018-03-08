@@ -47,9 +47,7 @@ Citizen.CreateThread(function ()
 		
 		if CurrentAction ~= nil then
 			
-			local _job = tostring(exports['esx_policejob']:getJob())
-			
-			if(_job == "reporter") then 
+			if(playerData ~= nil and playerData.job == "reporter") then 
 				DisplayHelpText("Paina ~INPUT_CONTEXT~ lunastaaksesi palkka")
 
 			  if IsControlJustReleased(0, 38) then
@@ -83,7 +81,7 @@ Citizen.CreateThread(function()
 		local coords    = GetEntityCoords(playerPed)
 
 		if(GetDistanceBetweenCoords(coords, -1116.89, -502.78, 35.01, true) < 100 ) then
-			DrawMarker(1, -1116.89, -502.78, 35.01, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 1.0, 1.0, 255, 0, 5, 100, false, true, 2, false, false, false, false)
+			DrawMarker(1, -1116.89, -502.78, 34.81, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 1.0, 1.0, 1.0, 255, 0, 5, 100, false, true, 2, false, false, false, false)
 		end	
 
 	end
