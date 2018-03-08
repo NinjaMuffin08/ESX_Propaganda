@@ -4,9 +4,11 @@
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
 
-YOU NEED ESX_NEWS FOR THIS  
+YOU NEED ESX_NEWS FOR THIS 
+note: this is like the first script I ever made, so it's quite low quality
+
 Features:
-1. Nice ui with extremely ugly scrollbar (will remove it later)
+1. Simple ui with extremely ugly scrollbar (will remove it later)
 2. Automaintains the news database, old articles are automatically removed
 3. Journalist office to redeem paycheck (amount * articles liked)
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
