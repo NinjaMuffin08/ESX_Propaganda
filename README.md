@@ -13,8 +13,6 @@ Features:
 3. Journalist office to redeem paycheck (amount * articles liked)
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
 
-Cons:
-News are updated only upon restart. Will be "fixed" when I have time. Requires one ServerEvent
 
 Requirements:
 1. ESSENTIALMODE & ES EXTENDED
