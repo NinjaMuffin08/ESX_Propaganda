@@ -26,4 +26,4 @@ Installation:
 4. Use the export function to open. I have this in AIO Job menu.
 5. En fucking joy
 
-Contact via DISCORD.ME/NAPAPIIRI
+Support:   DISCORD.ME/NAPAPIIRI
