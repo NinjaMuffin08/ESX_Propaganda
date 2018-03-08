@@ -1,19 +1,17 @@
 
-local playerData = nil
-ESX = nil
+local playerData			  = nil
+ESX                           = nil
 
-Citizen.CreateThread(function()
-	while ESX == nil do
-		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-		Citizen.Wait(1)
-	end
-	
-	closeGui() --close on client connect
-end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterNetEvent('esx:playerLoaded') --get xPlayer
 AddEventHandler('esx:playerLoaded', function(xPlayer)
   playerData = xPlayer
+end)
+
+RegisterNetEvent('esx:setJob')
+AddEventHandler('esx:setJob', function(job)	
+  playerData.job = job												
 end)
 
 
@@ -47,17 +45,16 @@ Citizen.CreateThread(function ()
   
 		Citizen.Wait(1)
 		
-		if CurrentAction ~= nil and not once then
+		if CurrentAction ~= nil then
 			
 			local _job = tostring(exports['esx_policejob']:getJob())
 			
 			if(_job == "reporter") then 
 				DisplayHelpText("Paina ~INPUT_CONTEXT~ lunastaaksesi palkka")
 
-			  if IsControlPressed(0, Keys['E']) then
+			  if IsControlJustReleased(0, 38) then
 				
 				TriggerServerEvent('esx_propaganda:getPaid', "ok")
-				once = true
 				CurrentAction = nil
 			  end
 			end
@@ -69,16 +66,11 @@ Citizen.CreateThread(function ()
 end)
 
 AddEventHandler('esx_propaganda:hasEnteredMarker', function (zone)
-	
-	once = false
 	CurrentAction = 'pay_menu'
-
 end)
 
 AddEventHandler('esx_propaganda:hasExitedMarker', function (zone)
-	
 	CurrentAction = nil
-
 end)
 
 -- Display markers
@@ -152,8 +144,6 @@ RegisterNUICallback('postArticle', function(data, cb)
   
   cb('ok')
 end)
-
-
 
 function openPropaganda ()
 	openGui()
