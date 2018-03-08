@@ -1,12 +1,12 @@
 # ESX_Propaganda
-# FIVEM TEXT EDITOR FOR ESX_NEWS
+# FIVEM TEXT EDITOR FOR POSTING NEWS
 
 News text editor for Fivem ESX
 ![alt text](https://i.imgur.com/BKO6WgR.jpg)  
 
 YOU NEED ESX_NEWS FOR THIS  
 Features:
-1. Nice ui with ugly scrollbar (will probably remove later)
+1. Nice ui with extremely ugly scrollbar (will remove it later)
 2. Automaintains the news database, old articles are automatically removed
 3. Journalist office to redeem paycheck (amount * articles liked)
 4. Journalist can link a news image. For example: Take a printscreen, post to imgurl and link it to the article.
