@@ -47,7 +47,7 @@ Citizen.CreateThread(function ()
 		
 		if CurrentAction ~= nil then
 			
-			if(playerData ~= nil and playerData.job == "reporter") then 
+			if(playerData ~= nil and playerData.job.name == "reporter") then 
 				DisplayHelpText("Paina ~INPUT_CONTEXT~ lunastaaksesi palkka")
 
 			  if IsControlJustReleased(0, 38) then
